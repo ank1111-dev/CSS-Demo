@@ -10,12 +10,40 @@
 </head>
 
 <body>
+    <nav id="nav-bar">
+        <img class="little-gryffi" src="./resource/images/little-gryffi.jpeg" alt="little-gryffindor">
+        <div class="right-nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
     <div class="wrapper">
         <h1>CSS - Debrief</h1>
+        
+        <h2>A test of CSS Ability</h2>
+        <ol>
+            <li>Apply a <strong>width and height</strong>  to the main parent element</li>
+            <li>Apply a <strong>background color</strong> with a <strong>linear-gradient</strong> to the body.</li>
+            <li><strong>Center</strong> the elements on the page</li>
+            <li>Apply a <strong>width</strong> of <strong>200px to the image</strong></li>
+            <li>Apply a <strong>flex box</strong>  with <strong>space between</strong>  the child elements to the <strong> #nav-bar </strong></li>
+            <li>Apply a hover effect to the a link tags</li>
+            <li>Target all the <strong>H1, H2, H3</strong> headings seperately, change the <strong>font and font color.</strong></li>
+            <li>Target the ordered list and change the <strong>list style</strong>.</li>
+            <li>Change the <strong>font</strong> for the <strong>list items</strong>.</li>
+            <li>Change the <strong>width</strong> of the <strong>table</strong> to <strong>400px MAX</strong> </li>
+            <li>Add a <strong>border</strong> and a  <strong>background color</strong>  to the <strong>table</strong>.</li>
+            <li>Change the <strong>width</strong> of the <strong>form</strong> to <strong>450px MAX</strong> </li>
+            <li>Add a <strong>border</strong> and a  <strong>background color</strong>  to the <strong>form</strong>.</li>
+            <li>Center align all the form text.</li>
+            <li>Left align the label text.</li>
+            
+        </ol>
         <div class="table-wrapper">
-            <h2>Table Heading</h2>
+            <h3>Table Heading</h3>
             <table id="my-table">
-                <thead style="color: blue; font-size: 30px;">This is the table head</thead>
+                
                 <tr>
                     <th style="color: white; background-color: lightblue; text-decoration: none;">Web Technologies</th>
                     <th>Luke</th>
@@ -33,7 +61,11 @@
                 </tr>
             </table>
         </div>
+        <br>
+        <hr>
+        <br>
         <div class="form-wrapper">
+            <h3>Form Heading</h3>
             <form action="#POST">
                 <label for="name">Name:</label>
                 <input type="text" name="name" id="input-box" required>
@@ -44,7 +76,8 @@
                 <label for="pwd">Password:</label>
                 <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                     title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
-                <input type="submit">
+                <br>
+                <button type="submit">Submit</button>
 
             </form>
         </div>
